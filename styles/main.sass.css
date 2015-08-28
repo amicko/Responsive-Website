@@ -142,3 +142,9 @@ footer {
     line-height: 1.5; }
     footer span > a {
       color: #E5E5E5; }
+
+@media screen and (min-width: 479px) {
+  div.image span {
+    padding-top: 135px;
+    padding-bottom: 135px;
+    font-size: 35px; } }
