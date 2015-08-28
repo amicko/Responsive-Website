@@ -23,9 +23,9 @@ div.image {
     font-size: 1.5em; }
 
 div.keeper {
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 96%; }
   div.keeper div.option {
-    width: 96%;
     padding-bottom: 1px;
     margin: 0 auto;
     margin-bottom: 1.875em; }
@@ -148,3 +148,21 @@ footer {
     padding-top: 135px;
     padding-bottom: 135px;
     font-size: 35px; } }
+
+@media screen and (min-width: 767px) {
+  .option {
+    float: left;
+    width: 33%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    box-sizing: border-box; }
+  section {
+    width: 100%;
+    padding-left: 2em; }
+    section .dualText {
+      float: left;
+      width: 45%;
+      padding: 1.5em;
+      box-sizing: border-box; }
+  footer {
+    clear: both; } }
