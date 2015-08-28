@@ -166,3 +166,10 @@ footer {
       box-sizing: border-box; }
   footer {
     clear: both; } }
+
+@media screen and (min-width: 979px) {
+  .keeper {
+    max-width: 56.25em; }
+  section {
+    max-width: 900px;
+    margin: 0 auto; } }
